@@ -1,0 +1,48 @@
+{
+    "brands": {
+        "BIMZLEX": "#E34F3C",
+        "Cosentyx": "#BF7D1E",
+        "Humira": "#027122",
+        "ILUMYA": "#01BEB8",
+        "Skyrizi": "#00A3DF",
+        "Stelara": "#015486",
+        "Tremfya": "#C0D3E2"
+    },
+
+    "hcp": {
+        "Segment 1": "#90728F",
+        "Segment 2": "#B9A0B4",
+        "Segment 3": "#AA8780",
+        "Segment 4": "#6B6B6B"
+    },
+    "hco": {
+        "Tier 1": "#729ECE",
+        "Tier 2": "#FF9E4A",
+        "Tier 3": "#A8786E",
+        "Tier 4": "#AD8BC9"
+    },
+
+    "lot": {
+        "1L": "#4E79A7",
+        "2L": "#5FA2CE",
+        "3L+": "#57606C"
+    },
+    "rejectReasons":{
+        "Authorization Denied":"#90728F",
+        "Medical Records Requested":"#B9A0B4",
+        "Prior Authorization Required":"#9D9B3D",
+        "Referral Required":"#CECB76",
+        "Refill Too Soon":"#6B6B6B"
+    },
+    "patienttype":{
+        "1L New Patients":"#BA7E45",
+        "1L Continue Patients":"#9D7660",
+        "2L+ New Patients":"#91B3D7",
+        "2L+ Continue Patients":"#466F9D"
+    },
+    "claimsRate":{
+        "Approval Rate":"#8175AA",
+        "Denial Rate":"#BBC9E5"
+    }
+    
+}

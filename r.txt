@@ -1,0 +1,2 @@
+14. What does cross-database join allow in Tableau?
+
