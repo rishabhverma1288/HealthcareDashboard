@@ -226,5 +226,5 @@ with row:
     df = df.sort_values("rejected claim count",ascending=False)
     row = st.container(horizontal=False,border=True)
     with row:
-        st.metric("Cosentyx Denied Claims","",help="Hi")
+        st.metric("Cosentyx Denied Claims","")
         normal_bar_chart_2(df,"reject reason","rejected claim count","Months","Denied Claims","#BBC9E5",5)
