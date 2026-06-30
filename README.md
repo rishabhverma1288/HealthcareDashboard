@@ -1,1 +1,1 @@
-# HelthcareDashboard
+# HealthcareDashboard
