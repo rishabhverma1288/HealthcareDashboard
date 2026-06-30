@@ -87,7 +87,6 @@ with row:
             value=format_number(current),
             
             border=True,
-            help="This is a string that explains something above.",
             delta=f"{pct_change:+.2f}% vs Prev. {time_period1}",
             
         )
@@ -104,7 +103,7 @@ with row:
             value=format_number(current),
             
             border=True,
-            help="This is a string that explains something above.",
+           
             delta=f"{pct_change:+.2f}% vs Prev. {time_period1}",
             
         )
@@ -121,7 +120,7 @@ with row:
             value=format_number(current),
             
             border=True,
-            help="This is a string that explains something above.",
+           
             delta=f"{pct_change:+.2f}% vs Prev. {time_period1}",
             
         )
@@ -138,7 +137,7 @@ with row:
             value=format_number(current),
             
             border=True,
-            help="This is a string that explains something above.",
+           
             delta=f"{pct_change:+.2f}% vs Prev. {time_period1}",
             
         )
@@ -155,7 +154,7 @@ with row:
             value=format_number(current),
             
             border=True,
-            help="This is a string that explains something above.",
+            
             delta=f"{pct_change:+.2f}% vs Prev. {time_period1}",
             
         )
@@ -215,7 +214,7 @@ row = st.container(horizontal=True)
 with row:
     row = st.container(horizontal=False,border=True)
     with row:
-        st.metric("Cosentyx Approved/Denial Rate","",help="Hi")
+        st.metric("Cosentyx Approved/Denial Rate","")
         line_chart(df_unpivot,"Month_Year","Value","Metric","Months","Claim Rate","Rates",COLOR_MAPS["claimsRate"],4)
 
 
